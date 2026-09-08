@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Dados gerados pelo app (ghosts, voltas salvas e exportações)
+telemetry_data/
+exportacoes/
+# Preferências do usuário (referência padrão, voz, retenção): são de cada
+# instalação, não do projeto. O app recria o arquivo com os padrões.
+config.json
+# Mapas de curva DETECTADOS pelo app: são refeitos sozinhos e valem só para
+# quem os gerou. Os mapas manuais (track_maps/<pista>.json) ficam versionados.
+track_maps/*.auto.json
+telemetry.json
+*.corrupt
+*.json.tmp
+
+# Editores
+.vscode/
+.idea/
+.claude/
+
+# Logs
+log.txt
+*.log
